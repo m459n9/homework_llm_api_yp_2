@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+
+auth_service/.venv/
+bot_service/.venv/
+
+*.pyc
+*.pyo
+
+auth_service/auth.db
+*.db
+
+auth_service/.env
+bot_service/.env
